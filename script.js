@@ -23,6 +23,7 @@ function retrieveQuery() {
         document.getElementById("view1").style.display = "none";
         document.getElementById("view2").style.display = "block";
         document.getElementById("searchTerm").textContent = decodedQuery.replace("?search=", "");
+        document.getElementById("search2").value = decodedQuery.replace("?search=", "");
     }
 }
 
