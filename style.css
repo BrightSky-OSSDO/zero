@@ -1,0 +1,36 @@
+#searchBox {
+    width: 500px;
+    height: 1.5em;
+}
+h3 {
+    margin-bottom: 0
+}
+#searchArea {
+    margin-left: auto;
+    margin-right: auto;
+}
+#page {
+    width: calc(100vw - 8px);
+    display: flex;
+    flex-direction: column;
+}
+#bigLogo {
+    display: block;
+    margin: auto;
+}
+html, body {
+    background-color: white;
+}
+.data {
+    position: absolute;
+    bottom: 0;
+    width: calc(100vw - 16px)
+}
+#search2 {
+    width: 200px;
+    height: 1.5em;
+}
+button {
+    height: 1.5em;
+    width: auto;
+}

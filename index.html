@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zero Search Engine</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="view1">
+            <div id="page">
+                <div id="searchArea">
+                    <a href="index.html"><img src="zero.png" alt="Zero" id="bigLogo"></a>
+                    <div id="searchForm">
+                        <h3>Search the Web</h3>
+                        <input type="text" id="searchBox" maxlength="200" autocomplete="off">
+                        <button id="submit" onclick="search()">Search</button>
+                    </div>
+                </div>
+                <div id="info">
+                    <h1>Zero Search Engine</h1>
+                    <p>This is a demo of the Zero Search Engine. Please note that it is a work-in-progress, so expect to experience occasional errors and malfunctions. And please excuse the extremely bad-looking website; it will be greatly improved and redesigned in the future.</p>
+                    <p>Zero is being developed by BrightSky OSSDO.</p>
+                    <h2>Known Problems</h2>
+                    <ul>
+                        <li>Only US-based websites have been crawled. This makes the search engine quite incomplete.</li>
+                        <li>The search algorithm is still in development. You may occasionally see results that don't match your search query at all (although this is a rare occurrence).</li>
+                        <li>Due to the way web crawling works, you may sometimes see a search result that is simply another search engine containing your query. But again, this is quite rare.</li>
+                        <li>Bugs and glitches sometimes occur when parsing the metadata of a search result.</li>
+                        <li>Attempting to include "<code>?search=</code>" in your search query will cause issues because it is a phrase reserved by Zero for parsing your search.</li>
+                        <li>The page might break if you try to search for a really long word without spaces.</li>
+                        <li>Search queries are limited to 200 characters.</li>
+                    </ul>
+                    <h3>Thank you for testing out Zero!</h3>
+                </div>
+            
+            </div>
+            <div class="data">
+                <hr>
+                <p><i>Copyright &COPY; 2023 - 2024 BrightSky OSSDO</i></p>
+            </div>
+        </div>
+        <div id="view2">
+            <div id="header">
+                <a href="index.html"><img src="zero.png" height="68px"></a>
+                <input type="text" id="search2" maxlength="200" autocomplete="off">
+                <button id="submit2" onclick="search2()">Search</button>
+            </div>
+            <hr>
+            <p>Your search - <b id="searchTerm"></b> - did not match any documents.</p>
+            <p>Here are some suggestions:</p>
+            <ul>
+                <li>Make sure all words are spelled correctly.</li>
+                <li>Try different keywords.</li>
+                <li>Try more general keywords.</li>
+                <li>Keep in mind the known problems outlined on Zero's main page.</li>
+            </ul>
+            <div class="data">
+                <hr>
+                <p><i>Copyright &COPY; 2023 - 2024 BrightSky OSSDO</i></p>
+            </div>
+        </div>
+    </body>
+</html>
